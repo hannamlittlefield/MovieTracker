@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise Tracker | freeCodeCamp</title>
+    <link rel="shortcut icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>DG/Lem Movie Tracker</h1>
+      <form action="/api/movies" method="post">
+        <h3>Add a movie</h3>
+        <input id="uname" type="text" name="moviename" placeholder="movie name">
+        <input id="type" type="text" name="genre" placeholder="genre">
+        <input id="yr" type="text" name="year" placeholder="year">
+        <input id="dir" type="text" name="director" placeholder="director">
+        <input type="submit" value="Submit">
+      </form>
+      <form id="ratingform" method="post">
+        <h3>Update a movie</h3>
+        <input id="uid" type="text" name="moviename" placeholder="movie name">
+        <input id="desc" type="text" name="comments" placeholder="comments*">
+        <input id="dur" type="text" name="rating" placeholder="rating">
+        <input id="dat" type="text" name="date" placeholder="date watched (mm-dd-yyyy)">
+        <input type="submit" value="Submit">
+      </form>
+      <p>
+    </div>
+  </body>
+</html>
